@@ -1,0 +1,81 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(211, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.mainContainer h1 {
+    text-align: center;
+}
+.myForm {
+    width: 100%;
+    height: 100px;
+}
+.myForm div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todotext {
+    align-self: center;
+    width: 550px;
+    height: 30px;
+    padding-left: 24px;
+}
+.title{
+    font-family: 'Roboto';
+}
+.titleLineThrough {
+    text-decoration: line-through;
+}
+
+.add-btn {
+    width: 80px;
+    height: 35px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 24px;
+    color: white;
+    cursor: pointer;
+}
+.allTodosList{
+    list-style-type: none;
+    width: 50%;
+    flex-grow: 1;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-contaier {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.checkbox-css {
+    margin-right: 24px;
+}
+.delete-css {
+    margin-left: 18px;
+}
+.editBtnCss {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: blueviolet;
+    cursor: pointer;
+}
